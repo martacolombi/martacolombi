@@ -19,3 +19,40 @@ git push origin main
 
   <!-- Altre sezioni come portfolio, contatti ecc. -->
 </body>
+/* HERO SECTION */
+.hero {
+  height: 100vh; /* prende tutta l’altezza dello schermo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra verticalmente */
+  align-items: center;     /* centra orizzontalmente */
+  text-align: center;
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: white;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  text-decoration: none;
+  color: white;
+  background: #ffdd57;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background: #ffc107;
+}
